@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "HW3 Tests",
+      "setup": "sudo -H pip3 install pytest numpy wordfreq",
+      "run": "pytest tests -s --tb=no -m \"not slow\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}

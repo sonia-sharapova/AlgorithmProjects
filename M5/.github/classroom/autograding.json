@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Run Pytests",
+      "setup": "sudo -H python3 -m pip install -r requirements.txt",
+      "run": "python3 -m pytest",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": null
+    }
+  ]
+}
